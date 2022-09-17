@@ -1,0 +1,50 @@
+body{
+background-color: rgba(245, 245, 245, 0.575); 
+}
+header{
+background-color:white;
+width: 600px;
+margin: 0 auto;
+text-align: center;
+padding: 3px;
+font-size: 24px;
+font-weight: bold;
+}
+.container{
+    width: 500px;
+    background-color:white;
+    margin: 10px auto;
+    padding: 1%;
+    text-align: center;
+    
+    
+}
+.container p{
+    margin: 20px auto;
+    text-align: center;
+    background-color: black;
+    width: 90px; 
+    padding: 15px;
+    font-size: 18px;
+}
+p:hover{
+    border:1px solid red;
+}
+p a{
+    color:aqua;
+}
+#link1:hover{
+    color:red;
+}
+#link2:active{
+    color:rgb(69, 11, 204);    
+}
+p:nth-child(2):active{
+    border-radius: 0% 100% 0% 100% / 0% 100% 0% 100%;
+}
+#link3:visited{
+    color:rgb(69, 11, 204);    
+}
+#link4:active{
+    color:rgb(69, 11, 204);    
+}
